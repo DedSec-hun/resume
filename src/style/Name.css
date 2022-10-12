@@ -1,0 +1,48 @@
+
+
+.left {
+  background-color:  #1d1e22;
+  height: 100vh;
+  position: fixed;
+  width: 30vw;
+  top: 0;
+  }
+
+  .name-style {
+    height: 300px;
+    left: 0;
+    position: relative;
+    right: 0;
+    top: 10;
+    }
+    .name-style h1 {
+    font-family: Open Sans, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: #fff;
+    }
+    .name-style h1 em {
+    color: #feda6a;
+    font-style: normal;
+    font-weight: 700;
+    }
+    .name-style p {
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0 8px 0 0;
+    text-align: center;
+    }
+    .name-style a {
+    color: #feda6a;
+    font-size: .75em;
+    line-height: 1.5;
+    margin: 0 8px 0 0;
+    text-align: center;
+    }
+    .pic {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    width: 60%;
+    }
