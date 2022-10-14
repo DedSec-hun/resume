@@ -1,28 +1,35 @@
-
-import './style/Description.css';
-import React, { useState } from 'react';
+import "./style/Waves.css";
+import "./style/Description.css";
 
 function Description() {
-  const [widthWork, setWorkWidth] = useState("0%")
-  const [widthTech, setTechWidth] = useState("0%")
-const showWork = () => {
-  setWorkWidth("80vw")
-}
-
-const showTech = () => {
-  setTechWidth("80vw")
-}
-
-const hideStuff = () => {
-  setTechWidth("0vh")
-  setWorkWidth("0%")
-}
-
   return (
-    
-    <div className='right'>
-     <section>
-          <h1>Experience</h1>
+    <div>
+      <div class="custom-shape-divider-top-1665752761">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+            opacity=".25"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+            opacity=".5"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <div className="right">
+        <section>
+          <h1 className="h1">Work Experience</h1>
           <div class="grid-container">
             <div>
               <h2> 2020.12- </h2>
@@ -30,37 +37,43 @@ const hideStuff = () => {
             <div>
               <div class="vertical_line">
                 <p> Robert Bosch Electronics Hungary </p>
-                <p class="info">  <em> Industry 4.0 Project Engineer
-                  </em> 
+                <p class="info">
+                  {" "}
+                  <em> Industry 4.0 Project Engineer</em>
                 </p>
               </div>
             </div>
-            
+
             <div>
               <h2> 2019.04-2020.12 </h2>
             </div>
             <div>
               <div class="vertical_line">
                 <p>Robert Bosch Electronics Hungary </p>
-                <p class="info" > <em> Process Engineer trainee / Students@Bosch </em>
+                <p class="info">
+                  {" "}
+                  <em> Process Engineer trainee / Students@Bosch </em>
                 </p>
               </div>
             </div>
-            
+
             <div>
               <h2> 2018.03-2019.04 </h2>
             </div>
             <div>
               <div class="vertical_line">
                 <p> Robert Bosch Electronics Hungary </p>
-                <p> <em> Lean engineer trainee </em> </p>
+                <p>
+                  {" "}
+                  <em> Lean engineer trainee </em>{" "}
+                </p>
               </div>
             </div>
           </div>
         </section>
 
         <section>
-          <h1>Education</h1>
+          <h1 className="h1">Education</h1>
           <div class="grid-container">
             <div>
               <h2> 2019-2021 </h2>
@@ -68,7 +81,10 @@ const hideStuff = () => {
             <div>
               <div class="vertical_line">
                 <p> Budapest University of Technology and Economics </p>
-                <p> <em> Engineering and Management MSc </em> - IT management </p>
+                <p>
+                  {" "}
+                  <em> Engineering and Management MSc </em> - IT management{" "}
+                </p>
               </div>
             </div>
             <div>
@@ -77,45 +93,29 @@ const hideStuff = () => {
             <div>
               <div class="vertical_line">
                 <p> Budapest University of Technology and Economics </p>
-                <p> <em>Engineering and Management BSc </em> - Mechanical Engineering </p>
+                <p>
+                  {" "}
+                  <em>Engineering and Management BSc </em> - Mechanical
+                  Engineering{" "}
+                </p>
               </div>
             </div>
-            </div>
+          </div>
         </section>
-        <section>
-        <div className='btn-container'> 
-        <h1 className='btn' onClick={showWork}> WORK</h1>
-        <h1 className='btn' onClick={showTech}> TechStack</h1>
-        </div>
-        </section>
-        <div style ={{width: widthWork}} class="overlay">
-                <h1 onClick={hideStuff} class="overlay-btn">Close</h1>
-                  <div class="overlay-content">
-                    <p>
-                    "In this position I started using Html, CSS, PHP, JavaScript as a profession to develop websites
-                    for internal use and also started using PowerBI to create useful information
-                    from databases I created/my apps handled and also using other plant level common databases. The
-                    applications were:
-                    <li> updating a legacy Quality scrap data collector with multiple form inputs</li> <li> I remade my (developed long
-                    time ago) Machine Change Management System with Laravel to make it usable on the whole
-                    plant level with proper Azure authentication and frontend, also with API to make its data usable for other developers </li> <li> I made a material tracking system (together with my team) which is using a handheld barcode scanner to identify and handle materials stored in fridges, and store their expiration date and other datas and alert the user about events, also having a thermometer (Arduino,Wifi,API) live data tracker about the fridges  </li> <li> A DB Admin page, where my collegaues could modify a big database (leading connected solutions)
-                    they are authorized to use in a user friendly and safe update environment </li> <li> Teamboard app: managing projects, todos and workload of my team</li> 
-                    <li> My latest work is a React frontend and NodeJS express backend with API calls. It is about showing who is available to solve technical problems on the machines, and also to connect the workers to specific production areas changeing their roles in the mysql database.</li> 
-                    <li> several API consumer applications</li> The list is not
-                    complete (other smaller solutions) and I also deploy and manage these websites and apps
-                    on a Windows VM server. I was the sub project manager for a few Industry 4.0
-                    applications, working with NFC, UWB technology and Websockets. I lead two developers (Web and C#) and a BI expert and they also create good solutions with my guidance."
-                    </p>    
-                  </div>
-                </div>
-                <div style ={{width: widthTech}}class="overlay">
-                <h1 onClick={hideStuff} class="overlay-btn">Close</h1>
-                  <div class="overlay-content">
-                  C# programming etc etc
-                  </div>
-                </div>
-
-
+      </div>
+      <div class="custom-shape-divider-bottom-1665754153">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
     </div>
   );
 }
