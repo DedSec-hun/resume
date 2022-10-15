@@ -22,6 +22,13 @@ function Name() {
             </p>
             <p>
               {" "}
+              <a href="mailto:csantal96@gmail.com">
+                {" "}
+              hungarian / english / german{" "}
+              </a>{" "}
+            </p>
+            <p>
+              {" "}
               <a href="tel:+36203212486"> +36203212486 </a>{" "}
             </p>
             <p>
