@@ -36,10 +36,10 @@ function App() {
         <div class="overlay-content">
           <p>
             I am doing Full Stack Software Development in an Industry(4.0)
-            environment and also managing a small developer team and its
+            environment and also managing a small developer team and our
             projects. I am doing programming (C# console apps, services, wpf
             apps) since my internship (2019), and web development since I have a
-            full time job (2020). A few example of projects I worked on at my
+            full time job (2020). A few examples of projects I have worked on at my
             workplace:
             <br></br> <br></br>
             <li>
