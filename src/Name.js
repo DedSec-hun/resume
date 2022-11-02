@@ -3,12 +3,17 @@ import "./style/Name.css";
 import App from "./App";
 
 function Name() {
+
+  const printer = () => {
+ window.print();
+  }
+
   return (
     <div className="left">
       <div class="name-style">
         <div class="name-text">
           <h1>
-            <em>Antal</em> Csiszár{" "}
+            <em onClick={printer} >Antal</em> Csiszár{" "}
           </h1>
           <b>
             <p>1996. 05. 12.</p>
@@ -21,11 +26,7 @@ function Name() {
               </a>{" "}
             </p>
             <p>
-              {" "}
-              <a href="mailto:csantal96@gmail.com">
-                {" "}
               hungarian / english / german{" "}
-              </a>{" "}
             </p>
             <p>
               {" "}

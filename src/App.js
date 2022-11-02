@@ -36,9 +36,9 @@ function App() {
         <div class="overlay-content">
           <p>
             I am doing Full Stack Software Development in an Industry(4.0)
-            environment and also managing a small developer team and our
+            environment and also managing a small developer/engineer team and our
             projects. I am doing programming (C# console apps, services, wpf
-            apps) since my internship (2019), and web development since I have a
+            apps) since my developer internship (2019), and web development since I have a
             full time job (2020). A few examples of projects I have worked on at my
             workplace:
             <br></br> <br></br>
@@ -116,7 +116,7 @@ function App() {
               alt="HTML"
             />
             <img
-              data-tip="This CV is using CSS with responsive design I just lack creativity."
+              data-tip="This CV is using CSS with responsive design I just lack a bit of creativity."
               src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png"
               className="App-logo"
               alt="CSS"
