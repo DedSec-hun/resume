@@ -52,7 +52,7 @@ function Description() {
                 <p>Robert Bosch Electronics Hungary </p>
                 <p class="info">
                   {" "}
-                  <em> Software Developer trainee / Students@Bosch badge earned </em>
+                  <em> Process Engineer trainee / Students@Bosch badge earned </em>
                 </p>
               </div>
             </div>
